@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/regular.css">
+    <!--fontAwesom-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Exam-2</title>
+</head>
+
+<body>
+    <!--loading spinners-->
+    <div class="spinners">
+        <div class="sk-circle">
+            <div class="sk-circle1 sk-child"></div>
+            <div class="sk-circle2 sk-child"></div>
+            <div class="sk-circle3 sk-child"></div>
+            <div class="sk-circle4 sk-child"></div>
+            <div class="sk-circle5 sk-child"></div>
+            <div class="sk-circle6 sk-child"></div>
+            <div class="sk-circle7 sk-child"></div>
+            <div class="sk-circle8 sk-child"></div>
+            <div class="sk-circle9 sk-child"></div>
+            <div class="sk-circle10 sk-child"></div>
+            <div class="sk-circle11 sk-child"></div>
+            <div class="sk-circle12 sk-child"></div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+    <nav class="d-flex">
+        <div class="side-bar">
+            <div class="side-list">
+                <ul>
+                
+                    <li><a id="searchClick">search</a></li>
+                    <li id="category-list-item"><a>categories</a></li>
+                    <li><a id="AreaDisplay">Area</a></li>
+                    <li><a id="ingredients-list-a" >ingredients</a></li>
+                    <li><a  id="contact">contact us</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-Brands">
+                <a><i class="fa-brands fa-facebook"></i></a>
+                <a><i class="fa-brands fa-twitter"></i></a>
+                <a><i class="fas fa-globe"></i></a>
+                <p>Copyright Â© MiDo 2022 All Rights Reserved.</p>
+            </div>
+
+
+
+        </div>
+        <div class="side-extension">
+            <div class="icon-div">
+                <img src="./images/deliciuos.jpg" class="w-100" alt="">
+            </div>
+            <div class="close-icon">
+                <i id="open-icon" class="fa fa-close fa-2x"></i>
+
+            </div>
+            <div class="connect-icons d-flex flex-column">
+                <i class="fa fa-globe"></i>
+                <i class="fa fa-share-alt"></i>
+            </div>
+
+
+        </div>
+
+
+    </nav>
+    <!--start meal main section-->
+    <section class="meals py-5">
+        <div class="container">
+
+            <div class="row gy-4 site-container" id="boxer">
+
+                <div class="item1 row py-5 g-4" id="display-meal-section"> </div>
+                <div class="item2 row " id="search-section">
+
+                    <div class="search">
+                        <input type="text" name="" id="searchInput" class="form-control" placeholder="search by name">
+                        <input type="text" name="" maxlength="1" id="letterSearch" class="form-control"
+                            placeholder="search by first letter...">
+
+                    </div>
+                    <div id="search-results" class="row py-5 g-4"></div>
+
+
+                </div>
+                <div class="item3 row py-5 g-4" id="category-section"></div>
+                <div class="item4 row py-5 g-4" id="area-section">
+                    <!--display area-->
+
+                </div>
+                <div class="item5 row  py-5 g-4" id="ingredient-section"> <!-- display ingrediant-->
+                  
+                </div> 
+                
+                <div class="item6 row  py-5 g-2 " id="contact-section">
+
+                        <h2 class="text-center">contact us </h2>
+                     
+                        <div class="col-md-6 my-4">
+                            <input type="text" class="form-control my-2" id="userName" placeholder="Enter your name">
+                            <h3 class="nameMessage form-control " ></h3>
+                            <input type="number" class="form-control my-2" id="userPhone"  placeholder="Enter your phone">
+                            <h3 class="numberMessage form-control " ></h3>
+                            <input type="password" class="form-control my-2" id="userPassword"  placeholder="Enter your password">
+                            <h3 class="passwordMessage form-control " ></h3>
+                           
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <input type="email" class="form-control my-2" id="userEmail"  placeholder="Enter your Email">
+                            <h3 class="emailMessage form-control "></h3>
+                            <input type="number" class="form-control my-2" id="userAge" maxlength="2" placeholder="Enter your age">
+                            <h3 class="ageMessage form-control " ></h3>
+                            <input type="password" class="form-control my-2" id="userRepassword"  placeholder="Enter Repassword">
+                            <h3 class="repasswordMessage form-control " ></h3>
+                           
+
+                        </div>
+                        <button class=" " id="submitButton" type="submit">submit</button>
+                </div>
+                
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <section class="displayM py-5">
+        <div class="container">
+            
+                <div class="row ingredientDetails">
+
+
+
+                </div>
+            
+
+
+           
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <script src="./javaScript/jquery-3.6.1.min.js"></script>
+    <script src="./javaScript/main.js"></script>
+
+</body>
+
+</html>
